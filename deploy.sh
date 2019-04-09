@@ -17,4 +17,9 @@ echo
 echo kubectl get pods
 kubectl get pods
 
+echo
+echo gcloud compute instances list
+gcloud compute instances list
+
+
 echo INFO: Please wait for Gateway to start...
