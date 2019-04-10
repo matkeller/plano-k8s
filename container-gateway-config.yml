@@ -32,7 +32,7 @@ metadata:
     description: Template for Secrets for the Gateway
 data:
   ssg.adminusername: YWRtaW4=
-  ssg.adminpassword: cGFzc3dvcmQ=
+  ssg.adminpassword: Q0FkZW1vMTIzIQ==
 ---
 apiVersion: v1
 kind: Secret
