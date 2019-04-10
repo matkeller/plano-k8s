@@ -14,10 +14,7 @@ Fix permissions and run:
 cd plano-k8s
 chmod +x deploy.sh build-1-node-cluster.sh
 
-# If you don't have a cluster, then this will build a 1 node cluster with 2 CPU and 7.5 GB RAM
-./build-1-node-cluster.sh
-
-# Wait 5-10 minutes, then run:
+# Deploy with script:
 ./deploy.sh
 ```
 
