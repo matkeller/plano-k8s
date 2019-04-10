@@ -1,9 +1,9 @@
 echo INFO: Deploying Gateway and MySQL
-kubectl apply -f container-gateway-config.yml -f container-gateway-mysql.yml -f container-gateway.yml 
+kubectl apply -f container-gateway-config.yml -f container-gateway-mysql.yml -f container-gateway.yml --validate=false
 sleep 5
 
 echo INFO: Deploying Live API Creator
-kubectl apply -f lac-nps.yml
+kubectl apply -f lac-nps.yml --validate=false
 sleep 5
 
 echo INFO: Exposing Gateway ports
