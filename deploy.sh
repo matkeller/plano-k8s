@@ -34,4 +34,3 @@ sleep 10
 echo 
 echo INFO: Calling the deployed gateway service to proxy to Live API Creator!
 curl -k -u admin:CAdemo123! https://192.168.99.100:31843/lac-policy
-
