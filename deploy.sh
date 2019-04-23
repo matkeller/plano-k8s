@@ -8,9 +8,6 @@ echo INFO: Deploying Live API Creator
 kubectl apply -f lac-nps.yml --validate=false
 sleep 20s
 
-echo INFO: Exposing Gateway ports
-kubectl expose deployment gw-dc --type=NodePort
-
 echo   
 echo kubectl get service
 kubectl get service
