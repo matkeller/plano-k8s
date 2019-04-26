@@ -55,7 +55,7 @@
         &lt;L7p:HttpRoutingAssertion&gt;
             &lt;L7p:CurrentSecurityHeaderHandling intValue=&quot;3&quot;/&gt;
             &lt;L7p:FailOnErrorStatus booleanValue=&quot;false&quot;/&gt;
-            &lt;L7p:ProtectedServiceUrl stringValue=&quot;http://10.128.0.7:32080/rest/default/demo/v1/demo:product&quot;/&gt;
+            &lt;L7p:ProtectedServiceUrl stringValue=&quot;http://lac-svc:8080/rest/default/demo/v1/demo:product&quot;/&gt;
             &lt;L7p:ProxyPassword stringValueNull=&quot;null&quot;/&gt;
             &lt;L7p:ProxyUsername stringValueNull=&quot;null&quot;/&gt;
             &lt;L7p:RequestHeaderRules httpPassthroughRuleSet=&quot;included&quot;&gt;
